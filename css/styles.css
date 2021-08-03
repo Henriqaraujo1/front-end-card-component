@@ -1,0 +1,31 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family: 'Lexenda Deca', sans-serif;
+    font-weight: 400;
+}
+
+.card {
+    background-color: hsl(244,38%, 16%);
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.col {
+    display: inline-block;
+}
+
+.row {
+    margin: 25px;
+    display: inline;
+    
+}
+
+.col h2, p {
+    color: white;
+    margin: 10px;
+    padding: 1,5em;
+}
