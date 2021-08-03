@@ -1,10 +1,11 @@
-@import url(https://fonts.google.com/specimen/Lexend+Deca);
-
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('https://fonts.google.com/specimen/Inter');
 body {
     background-color: hsl(233, 47%, 7%);
     font-size: 15px;
     font-family: 'Lexenda Deca', sans-serif;
     font-weight: 400;
+    color: white;
 }
 
 .card {
@@ -12,6 +13,8 @@ body {
     width: 700px;
     height: 300px;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center ;
 }
 
 .col {
@@ -25,7 +28,6 @@ body {
 }
 
 .col h2, p {
-    color: white;
     margin: 10px;
     padding: 1,5em;
 }
