@@ -8,26 +8,53 @@ body {
     color: white;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}   
+
+
 .card {
     background-color: hsl(244,38%, 16%);
-    width: 700px;
-    height: 300px;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center ;
+    width: 900px;
+    height: 350px;
+    border-radius: 15px;
+    
+}
+
+.image{
+    max-width: 900px;
+    max-height: 350px;
+    position: relative;
+    display: 
+    
+
 }
 
 .col {
     display: inline-block;
+    flex-wrap: wrap;
 }
 
 .row {
     margin: 25px;
-    display: inline;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .col h2, p {
     margin: 10px;
     padding: 1,5em;
+    align-items: flex-end;
+}
+
+.text {
+    text-align: left;
+    padding: 4px;
+    border: 0px solid;
+}
+
+.attribution {
+    text-align: center;
 }
