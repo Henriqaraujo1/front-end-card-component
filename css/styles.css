@@ -16,21 +16,34 @@ body {
 
 
 .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: hsl(244,38%, 16%);
-    width: 900px;
-    height: 350px;
     border-radius: 15px;
-    
+    margin: 25px;
+    padding: 10px;   
+}
+
+.main {
+    text-align: left;
+    margin: 0 auto;
+    padding: 1px;
 }
 
 .image{
-    max-width: 900px;
-    max-height: 350px;
-    position: relative;
-    display: 
-    
+   margin: 0 auto; 
+   background-size: 100%;
+   
+}   
 
+@media only screen and (max-width: 480px) {
+    .card {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
+    
 
 .col {
     display: inline-block;
